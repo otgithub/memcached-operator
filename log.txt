@@ -1,0 +1,78 @@
+I1130 17:17:00.203447       1 request.go:621] Throttling request took 1.049820438s, request: GET:https://172.21.0.1:443/apis/cache.example.com/v1?timeout=32s
+2020-11-30T17:17:02.953Z	INFO	controller-runtime.metrics	metrics server is starting to listen	{"addr": "127.0.0.1:8080"}
+2020-11-30T17:17:03.055Z	INFO	setup	starting manager
+I1130 17:17:03.157181       1 leaderelection.go:242] attempting to acquire leader lease  memcached-operator-system/bf0e2d0d.example.com...
+2020-11-30T17:17:03.158Z	INFO	controller-runtime.manager	starting metrics server	{"path": "/metrics"}
+I1130 17:17:20.863524       1 leaderelection.go:252] successfully acquired lease memcached-operator-system/bf0e2d0d.example.com
+2020-11-30T17:17:20.867Z	INFO	controller	Starting EventSource	{"reconcilerGroup": "cache.example.com", "reconcilerKind": "Memcached", "controller": "memcached", "source": "kind source: /, Kind="}
+2020-11-30T17:17:20.867Z	DEBUG	controller-runtime.manager.events	Normal	{"object": {"kind":"ConfigMap","namespace":"memcached-operator-system","name":"bf0e2d0d.example.com","uid":"054276d8-4ec3-433a-9028-275b41bcec14","apiVersion":"v1","resourceVersion":"15622198"}, "reason": "LeaderElection", "message": "memcached-operator-controller-manager-846f8d5c97-n4wwq_c2065fe6-2251-418a-9d47-7062ac2fd481 became leader"}
+2020-11-30T17:17:21.149Z	INFO	controller	Starting EventSource	{"reconcilerGroup": "cache.example.com", "reconcilerKind": "Memcached", "controller": "memcached", "source": "kind source: /, Kind="}
+2020-11-30T17:17:22.454Z	INFO	controller	Starting Controller	{"reconcilerGroup": "cache.example.com", "reconcilerKind": "Memcached", "controller": "memcached"}
+2020-11-30T17:17:22.455Z	INFO	controller	Starting workers	{"reconcilerGroup": "cache.example.com", "reconcilerKind": "Memcached", "controller": "memcached", "worker count": 1}
+E1130 17:17:26.069507       1 reflector.go:383] pkg/mod/k8s.io/client-go@v0.18.6/tools/cache/reflector.go:125: Failed to watch *v1.Pod: unknown (get pods)
+2020-11-30T17:17:26.253Z	DEBUG	controller	Successfully Reconciled	{"reconcilerGroup": "cache.example.com", "reconcilerKind": "Memcached", "controller": "memcached", "name": "memcached-sample", "namespace": "memcached-operator-system"}
+2020-11-30T17:17:26.450Z	DEBUG	controller	Successfully Reconciled	{"reconcilerGroup": "cache.example.com", "reconcilerKind": "Memcached", "controller": "memcached", "name": "memcached-sample", "namespace": "memcached-operator-system"}
+2020-11-30T17:17:26.453Z	DEBUG	controller	Successfully Reconciled	{"reconcilerGroup": "cache.example.com", "reconcilerKind": "Memcached", "controller": "memcached", "name": "memcached-sample", "namespace": "memcached-operator-system"}
+E1130 17:17:31.049799       1 reflector.go:383] pkg/mod/k8s.io/client-go@v0.18.6/tools/cache/reflector.go:125: Failed to watch *v1.Pod: unknown (get pods)
+E1130 17:17:34.952282       1 reflector.go:383] pkg/mod/k8s.io/client-go@v0.18.6/tools/cache/reflector.go:125: Failed to watch *v1.Pod: unknown (get pods)
+E1130 17:17:41.651478       1 reflector.go:383] pkg/mod/k8s.io/client-go@v0.18.6/tools/cache/reflector.go:125: Failed to watch *v1.Pod: unknown (get pods)
+E1130 17:17:54.257322       1 reflector.go:383] pkg/mod/k8s.io/client-go@v0.18.6/tools/cache/reflector.go:125: Failed to watch *v1.Pod: unknown (get pods)
+E1130 17:18:12.650181       1 reflector.go:383] pkg/mod/k8s.io/client-go@v0.18.6/tools/cache/reflector.go:125: Failed to watch *v1.Pod: unknown (get pods)
+E1130 17:18:54.262760       1 reflector.go:383] pkg/mod/k8s.io/client-go@v0.18.6/tools/cache/reflector.go:125: Failed to watch *v1.Pod: unknown (get pods)
+E1130 17:19:35.861598       1 reflector.go:383] pkg/mod/k8s.io/client-go@v0.18.6/tools/cache/reflector.go:125: Failed to watch *v1.Pod: unknown (get pods)
+E1130 17:20:31.149495       1 reflector.go:383] pkg/mod/k8s.io/client-go@v0.18.6/tools/cache/reflector.go:125: Failed to watch *v1.Pod: unknown (get pods)
+E1130 17:21:29.255636       1 reflector.go:383] pkg/mod/k8s.io/client-go@v0.18.6/tools/cache/reflector.go:125: Failed to watch *v1.Pod: unknown (get pods)
+E1130 17:22:16.352430       1 reflector.go:383] pkg/mod/k8s.io/client-go@v0.18.6/tools/cache/reflector.go:125: Failed to watch *v1.Pod: unknown (get pods)
+E1130 17:22:52.358357       1 reflector.go:383] pkg/mod/k8s.io/client-go@v0.18.6/tools/cache/reflector.go:125: Failed to watch *v1.Pod: unknown (get pods)
+E1130 17:23:52.854476       1 reflector.go:383] pkg/mod/k8s.io/client-go@v0.18.6/tools/cache/reflector.go:125: Failed to watch *v1.Pod: unknown (get pods)
+E1130 17:24:45.757326       1 reflector.go:383] pkg/mod/k8s.io/client-go@v0.18.6/tools/cache/reflector.go:125: Failed to watch *v1.Pod: unknown (get pods)
+E1130 17:25:22.358722       1 reflector.go:383] pkg/mod/k8s.io/client-go@v0.18.6/tools/cache/reflector.go:125: Failed to watch *v1.Pod: unknown (get pods)
+E1130 17:26:10.355534       1 reflector.go:383] pkg/mod/k8s.io/client-go@v0.18.6/tools/cache/reflector.go:125: Failed to watch *v1.Pod: unknown (get pods)
+E1130 17:26:54.859299       1 reflector.go:383] pkg/mod/k8s.io/client-go@v0.18.6/tools/cache/reflector.go:125: Failed to watch *v1.Pod: unknown (get pods)
+E1130 17:27:34.358246       1 reflector.go:383] pkg/mod/k8s.io/client-go@v0.18.6/tools/cache/reflector.go:125: Failed to watch *v1.Pod: unknown (get pods)
+E1130 17:28:29.956316       1 reflector.go:383] pkg/mod/k8s.io/client-go@v0.18.6/tools/cache/reflector.go:125: Failed to watch *v1.Pod: unknown (get pods)
+E1130 17:29:28.357711       1 reflector.go:383] pkg/mod/k8s.io/client-go@v0.18.6/tools/cache/reflector.go:125: Failed to watch *v1.Pod: unknown (get pods)
+E1130 17:30:03.152188       1 reflector.go:383] pkg/mod/k8s.io/client-go@v0.18.6/tools/cache/reflector.go:125: Failed to watch *v1.Pod: unknown (get pods)
+E1130 17:30:36.954948       1 reflector.go:383] pkg/mod/k8s.io/client-go@v0.18.6/tools/cache/reflector.go:125: Failed to watch *v1.Pod: unknown (get pods)
+E1130 17:31:29.059336       1 reflector.go:383] pkg/mod/k8s.io/client-go@v0.18.6/tools/cache/reflector.go:125: Failed to watch *v1.Pod: unknown (get pods)
+E1130 17:32:10.258142       1 reflector.go:383] pkg/mod/k8s.io/client-go@v0.18.6/tools/cache/reflector.go:125: Failed to watch *v1.Pod: unknown (get pods)
+E1130 17:33:05.561306       1 reflector.go:383] pkg/mod/k8s.io/client-go@v0.18.6/tools/cache/reflector.go:125: Failed to watch *v1.Pod: unknown (get pods)
+E1130 17:33:42.749614       1 reflector.go:383] pkg/mod/k8s.io/client-go@v0.18.6/tools/cache/reflector.go:125: Failed to watch *v1.Pod: unknown (get pods)
+E1130 17:34:41.149815       1 reflector.go:383] pkg/mod/k8s.io/client-go@v0.18.6/tools/cache/reflector.go:125: Failed to watch *v1.Pod: unknown (get pods)
+E1130 17:35:42.151117       1 reflector.go:383] pkg/mod/k8s.io/client-go@v0.18.6/tools/cache/reflector.go:125: Failed to watch *v1.Pod: unknown (get pods)
+E1130 17:36:28.959310       1 reflector.go:383] pkg/mod/k8s.io/client-go@v0.18.6/tools/cache/reflector.go:125: Failed to watch *v1.Pod: unknown (get pods)
+E1130 17:37:29.449846       1 reflector.go:383] pkg/mod/k8s.io/client-go@v0.18.6/tools/cache/reflector.go:125: Failed to watch *v1.Pod: unknown (get pods)
+E1130 17:38:21.849492       1 reflector.go:383] pkg/mod/k8s.io/client-go@v0.18.6/tools/cache/reflector.go:125: Failed to watch *v1.Pod: unknown (get pods)
+E1130 17:39:10.454852       1 reflector.go:383] pkg/mod/k8s.io/client-go@v0.18.6/tools/cache/reflector.go:125: Failed to watch *v1.Pod: unknown (get pods)
+E1130 17:39:58.555133       1 reflector.go:383] pkg/mod/k8s.io/client-go@v0.18.6/tools/cache/reflector.go:125: Failed to watch *v1.Pod: unknown (get pods)
+E1130 17:40:41.959767       1 reflector.go:383] pkg/mod/k8s.io/client-go@v0.18.6/tools/cache/reflector.go:125: Failed to watch *v1.Pod: unknown (get pods)
+E1130 17:41:43.060777       1 reflector.go:383] pkg/mod/k8s.io/client-go@v0.18.6/tools/cache/reflector.go:125: Failed to watch *v1.Pod: unknown (get pods)
+E1130 17:42:35.952685       1 reflector.go:383] pkg/mod/k8s.io/client-go@v0.18.6/tools/cache/reflector.go:125: Failed to watch *v1.Pod: unknown (get pods)
+E1130 17:43:09.859066       1 reflector.go:383] pkg/mod/k8s.io/client-go@v0.18.6/tools/cache/reflector.go:125: Failed to watch *v1.Pod: unknown (get pods)
+E1130 17:44:00.156831       1 reflector.go:383] pkg/mod/k8s.io/client-go@v0.18.6/tools/cache/reflector.go:125: Failed to watch *v1.Pod: unknown (get pods)
+E1130 17:44:38.859233       1 reflector.go:383] pkg/mod/k8s.io/client-go@v0.18.6/tools/cache/reflector.go:125: Failed to watch *v1.Pod: unknown (get pods)
+E1130 17:45:17.657239       1 reflector.go:383] pkg/mod/k8s.io/client-go@v0.18.6/tools/cache/reflector.go:125: Failed to watch *v1.Pod: unknown (get pods)
+E1130 17:45:53.255325       1 reflector.go:383] pkg/mod/k8s.io/client-go@v0.18.6/tools/cache/reflector.go:125: Failed to watch *v1.Pod: unknown (get pods)
+E1130 17:46:37.156992       1 reflector.go:383] pkg/mod/k8s.io/client-go@v0.18.6/tools/cache/reflector.go:125: Failed to watch *v1.Pod: unknown (get pods)
+E1130 17:47:27.749390       1 reflector.go:383] pkg/mod/k8s.io/client-go@v0.18.6/tools/cache/reflector.go:125: Failed to watch *v1.Pod: unknown (get pods)
+E1130 17:48:17.756698       1 reflector.go:383] pkg/mod/k8s.io/client-go@v0.18.6/tools/cache/reflector.go:125: Failed to watch *v1.Pod: unknown (get pods)
+E1130 17:49:14.253858       1 reflector.go:383] pkg/mod/k8s.io/client-go@v0.18.6/tools/cache/reflector.go:125: Failed to watch *v1.Pod: unknown (get pods)
+E1130 17:50:07.759167       1 reflector.go:383] pkg/mod/k8s.io/client-go@v0.18.6/tools/cache/reflector.go:125: Failed to watch *v1.Pod: unknown (get pods)
+E1130 17:50:54.456950       1 reflector.go:383] pkg/mod/k8s.io/client-go@v0.18.6/tools/cache/reflector.go:125: Failed to watch *v1.Pod: unknown (get pods)
+E1130 17:51:39.453741       1 reflector.go:383] pkg/mod/k8s.io/client-go@v0.18.6/tools/cache/reflector.go:125: Failed to watch *v1.Pod: unknown (get pods)
+E1130 17:52:10.551478       1 reflector.go:383] pkg/mod/k8s.io/client-go@v0.18.6/tools/cache/reflector.go:125: Failed to watch *v1.Pod: unknown (get pods)
+E1130 17:52:59.659092       1 reflector.go:383] pkg/mod/k8s.io/client-go@v0.18.6/tools/cache/reflector.go:125: Failed to watch *v1.Pod: unknown (get pods)
+E1130 17:53:57.553267       1 reflector.go:383] pkg/mod/k8s.io/client-go@v0.18.6/tools/cache/reflector.go:125: Failed to watch *v1.Pod: unknown (get pods)
+E1130 17:54:47.250514       1 reflector.go:383] pkg/mod/k8s.io/client-go@v0.18.6/tools/cache/reflector.go:125: Failed to watch *v1.Pod: unknown (get pods)
+E1130 17:55:44.255652       1 reflector.go:383] pkg/mod/k8s.io/client-go@v0.18.6/tools/cache/reflector.go:125: Failed to watch *v1.Pod: unknown (get pods)
+E1130 17:56:35.251420       1 reflector.go:383] pkg/mod/k8s.io/client-go@v0.18.6/tools/cache/reflector.go:125: Failed to watch *v1.Pod: unknown (get pods)
+E1130 17:57:24.952753       1 reflector.go:383] pkg/mod/k8s.io/client-go@v0.18.6/tools/cache/reflector.go:125: Failed to watch *v1.Pod: unknown (get pods)
+E1130 17:58:17.349481       1 reflector.go:383] pkg/mod/k8s.io/client-go@v0.18.6/tools/cache/reflector.go:125: Failed to watch *v1.Pod: unknown (get pods)
+E1130 17:59:05.550994       1 reflector.go:383] pkg/mod/k8s.io/client-go@v0.18.6/tools/cache/reflector.go:125: Failed to watch *v1.Pod: unknown (get pods)
+E1130 17:59:59.960039       1 reflector.go:383] pkg/mod/k8s.io/client-go@v0.18.6/tools/cache/reflector.go:125: Failed to watch *v1.Pod: unknown (get pods)
+E1130 18:00:54.561495       1 reflector.go:383] pkg/mod/k8s.io/client-go@v0.18.6/tools/cache/reflector.go:125: Failed to watch *v1.Pod: unknown (get pods)
+E1130 18:01:51.549859       1 reflector.go:383] pkg/mod/k8s.io/client-go@v0.18.6/tools/cache/reflector.go:125: Failed to watch *v1.Pod: unknown (get pods)
+E1130 18:02:41.253449       1 reflector.go:383] pkg/mod/k8s.io/client-go@v0.18.6/tools/cache/reflector.go:125: Failed to watch *v1.Pod: unknown (get pods)
+E1130 18:03:13.356747       1 reflector.go:383] pkg/mod/k8s.io/client-go@v0.18.6/tools/cache/reflector.go:125: Failed to watch *v1.Pod: unknown (get pods)
+E1130 18:04:02.860767       1 reflector.go:383] pkg/mod/k8s.io/client-go@v0.18.6/tools/cache/reflector.go:125: Failed to watch *v1.Pod: unknown (get pods)
+E1130 18:04:51.654150       1 reflector.go:383] pkg/mod/k8s.io/client-go@v0.18.6/tools/cache/reflector.go:125: Failed to watch *v1.Pod: unknown (get pods)
